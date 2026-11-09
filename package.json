@@ -1,0 +1,15 @@
+{
+  "name": "lazy-aso-mcp",
+  "version": "0.1.0",
+  "description": "Free MCP server: is your iOS app name free in the App Store? Checks who holds it, country by country.",
+  "type": "module",
+  "bin": { "lazy-aso-mcp": "src/index.mjs" },
+  "files": ["src", "lib", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "homepage": "https://lazyaso.com/?ref=mcp",
+  "repository": { "type": "git", "url": "git+https://github.com/dyuven123/lazy-aso-mcp.git" },
+  "mcpName": "io.github.dyuven123/lazy-aso-mcp",
+  "keywords": ["mcp", "aso", "app-store", "ios", "app-name", "claude-code", "cursor"],
+  "dependencies": { "@modelcontextprotocol/sdk": "1.32.2", "zod": "^3.25.0" }
+}
